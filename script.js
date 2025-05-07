@@ -1,4 +1,5 @@
-// Array de produtos
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
+
 const supabase = createClient('https://cfvbdhkxjjqxofxixorw.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNmdmJkaGt4ampxeG9meGl4b3J3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY2NjA5OTIsImV4cCI6MjA2MjIzNjk5Mn0.p2Pq2OQjIJDLkd9eftVsNZ3mxck25jvflcwhk1nhys8');
 
 let produtos = [];
